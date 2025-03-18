@@ -1,15 +1,27 @@
+body {
+    background: rgb(255, 157, 0)
+}
+
 #title {
     text-align: center;
     font-family: copperplate;
-    font-size: 5em;
-    margin-top: 1rem;
+    font-size: 20em;
+    color: rgb(205, 202, 202);
+    text-shadow: 5px 8px black;
+}
+
+#titleSpan {
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px 100px;
+    background: hsl(48, 100%, 50%);
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
@@ -25,16 +37,22 @@
 
 .piko-info {
     padding-left: 1.25rem;
+    border: 5px dotted greenyellow;
+    margin-top: 15px;
 }
 
 .info-text {
     font-family: monospace;
-    font-size: 1rem;
+    font-size: 4em;
+    color: rgb(237, 231, 231);
+    text-shadow: 5px 8px black;
 }
 
 .piko-name {
     font-family: "copperplate", fantasy;
-    font-size: 1.5em;
+    font-size: 5.5em;
+    color: rgb(54, 232, 119);
+    text-shadow: 5px 8px black;
 }
 
 .piko-abilities {
